@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import reactMixin from 'react-mixin';
 import { ListenerMixin } from 'reflux';
-import Mozaik from 'mozaik/browser';
+import Mozaik from '@tlake/mozaik/browser';
 var d3 = require('d3');
 var ease = require('d3-ease');
 import _ from 'lodash';

@@ -13,21 +13,21 @@ Follow the steps to install and configure widget into dashboard
 - Install module in dashboard directory:
 
   ```shell
-  npm install -S mozaik-ext-slack
+  npm install -S @tlake/mozaik-ext-slack
   ```
 
 - Register client api by adding to dashboard `src/server.js`:
 
   ```javascript
   // NOTE: Widget uses push method to delivery messages!
-  import slack from 'mozaik-ext-slack/client';
+  import slack from '@tlake/mozaik-ext-slack/client';
   mozaik.bus.registerApi('slack', slack, 'push');
   ```
 
 - Register widgets by adding to dashboard ``src/App.jsx``:
 
   ```javascript
-  import slack from 'mozaik-ext-slack';
+  import slack from '@tlake/mozaik-ext-slack';
   mozaik.addBatch('slack', slack);
   ```
 

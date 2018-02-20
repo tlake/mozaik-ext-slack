@@ -1,6 +1,6 @@
 {
-  "name": "mozaik-ext-slack",
-  "version": "0.9.0",
+  "name": "@tlake/mozaik-ext-slack",
+  "version": "0.9.1",
   "description": "Slack widgets to Mozaik dashboard",
   "main": "./components.js",
   "scripts": {
@@ -13,10 +13,17 @@
     "extension"
   ],
   "author": "Juha Mustonen <juha.p.mustonen@gmail.com>",
+  "contributors": [
+      {
+          "name": "Tanner Lake",
+          "url": "https://github.com/tlake"
+      }
+  ],
+  "homepage": "https://github.com/tlake/mozaik-ext-slack",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juhamust/mozaik-ext-slack.git"
+    "url": "https://github.com/tlake/mozaik-ext-slack.git"
   },
   "dependencies": {
     "babel-core": "6.7.6",

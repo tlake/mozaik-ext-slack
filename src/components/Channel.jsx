@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import reactMixin from 'react-mixin';
 import { ListenerMixin } from 'reflux';
-import Mozaik from 'mozaik/browser';
+import Mozaik from '@tlake/mozaik/browser';
 import classNames from 'classnames';
 import moment from 'moment';
 import _ from 'lodash';
